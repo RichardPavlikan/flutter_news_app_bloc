@@ -28,19 +28,3 @@ class ArticleRepositoryImplementation implements ArticleRepository {
     }
   }
 }
-
-
-// if (httpResponse.statusCode == HttpStatus.ok) {
-//         final json = jsonDecode(httpResponse.body);
-
-//         final List<ArticleModel> articles =
-//             (json as List).map<ArticleModel>((article) {
-//           return ArticleModel.fromJson(article);
-//         }).toList();
-
-//         print('Articles: $articles');
-
-//         return DataSuccess(articles);
-//       }
-
-//       debugPrint('Error: ${httpResponse.statusCode}');
